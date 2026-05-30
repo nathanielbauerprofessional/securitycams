@@ -1,1 +1,1 @@
-
+5/30/26 - Set up CMakeLists.txt and other general project setup. Then, created a working ServerThread class that waits for client (camera) connections and, upon connection, starts a new thread for that specific camera feed. Then, made the CameraThread class that loops while the camera is connected, receiving frames and sending them to a window for viewing. 
