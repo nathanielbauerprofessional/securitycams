@@ -4,6 +4,6 @@
 int main()
 {
     ServerThread s;
-    std::cout << s.printtest();
+    s.startServerThread();
     return 0;
 }
